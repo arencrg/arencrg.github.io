@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo|Spectral|Timmana');
+
+body {
+  background: white;
+  color: black;
+  vertical-align: middle;
+  font-family: 'Spectral', serif;
+  font-size: 14px;;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Spectral', serif;
+  font-size: 22px;
+  line-height: 140%;
+}
+
+#content {
+margin: 2% 3% 2% 3%;
+}
+
+#header {
+  background: white;
+  background-image: url("images/bgheader.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /*parallax*/
+  padding: 20% 15% 150px 15%;
+  }
+
+h1 {
+  font-family: 'Timmana', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 85%;
+}
+
+h2 {
+  font-family: 'Spectral', serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding: 0 5% 0 5%;
+}
+
+h3 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 22px;
+  color: black;
+}
+
+#menuwide {
+  display: none;
+}
+
+#menu {
+font-size: 30px;
+font-family: 'Timmana', sans-serif;
+background: black;
+color: white!important;
+width: 100%;
+}
+
+#logoimg {
+height: 55px;
+vertical-align: middle;
+}
+
+#colbtn {
+  height: 65px;
+}
+
+#menuitems li {
+padding: 15px 20px 0 15px;
+color: white;
+vertical-align: middle;
+}
+
+#menuitems li:hover {
+background: #57c0a1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  font-weight: bolder;
+  color: inherit;
+}
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#bio {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+#whoami {
+  width: 100%;
+}
+
+#whoamiimg {
+  width: 95%;
+  margin: 0 2.5% 0 2.5%;
+}
+
+#biotext {
+  width: 100%;
+  text-align: center;
+}
+
+#impressya {
+      width: 100%;
+      margin: 60px 0 0 0;
+      }
+
+    #impressya h3 {
+          text-align: center;
+          margin: 0 5% 0 5%;
+          padding-bottom: 20px;
+          }
+
+#photos {
+      width: 100%;
+      margin: 0 1% 0 1%;
+      }
+
+#impressyaimg {
+      width: 45%;
+      margin: 2% 2% 0 2%;
+      }
+#impressyaimg2 {
+      width: 45%;
+      margin: 2% 2% 0 2%;
+      }
+
+#impressyatext {
+      width: 100%;
+      text-align: center;
+      vertical-align: middle;
+      }
+
+      #impressyatext a {
+            font-weight: bolder;
+            }
+
+      #impressyatext a:hover {
+            color: #57c0a1;
+            font-weight: bolder;
+            text-decoration: line-through;
+            }
+
+#where {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+#where h3 {
+  font-size: 24px;
+}
+
+#wheremap {
+  margin: 15px 0 0 0;
+  width: 100%;
+}
+#whereframe {
+  height: 400px;
+}
+#wheretext {
+  width: 100%;
+  text-align: left;
+}
+
+#wheretext ul {
+    padding-top: 40px;
+    line-height: 140%;
+    list-style-image: url("images/pin.png");
+    list-style-position: outside;
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+}
+
+#googleme {
+  width: 100%;
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+
+#socmedicons {
+  width: 100%;
+  padding: 20px 4% 40px 4%;
+}
+
+#socmedicons img {
+  width: 30%;
+  margin: 5px 1% 5px 1%;
+}
+
+#fb:hover {
+content: url('images/fb2.png');
+}
+#ig:hover {
+content: url('images/ig2.png');
+}
+#twitter:hover {
+content: url('images/twitter2.png');
+}
+#linkedin:hover {
+content: url('images/linkedin2.png');
+}
+#github:hover {
+content: url('images/github2.png');
+}
+#behance:hover {
+content: url('images/behance2.png');
+}
+
+#ghide {
+  display: none;
+}
+
+#screen {
+  width: 100%;
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+
+    #screen a {
+          font-weight: bolder;
+          }
+
+    #screen a:hover {
+          color: #57c0a1;
+          font-weight: bolder;
+          text-decoration: none;
+          }
+
+#vivixx {
+  width: 100%;
+  padding-top: 15px;
+}
+
+#igscreens {
+  width: 100%;
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+#igscreens blockquote {
+  margin: 10px 0 10px 0;
+}
+
+#igscreens p {
+  padding-top: 20px;
+}
+
+#ineednewfriends {
+    width: 100%;
+    margin: 60px 0 0 0;
+    text-align: center;
+}
+
+#form-main{
+  width:100%;
+  padding-top:35px;
+  padding-bottom:50px;
+  z-index: 999;
+  color: black;
+}
+
+.feedback-input {
+  color:black;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #eeeeee;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #57c0a1;
+  color: #57c0a1;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  color:#30aed6;
+  border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+  background-image: url(images/user.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(images/user.png);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(images/email.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(images/email.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#message{
+  background-image: url(images/pencil.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 120%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color:white;
+}
+
+#buttoncolor{
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor:pointer;
+  background-color: #57c0a1;
+  color:white;
+  font-family: 'Chivo', sans-serif;
+  font-size:16px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 12px 0 10px 0;
+}
+
+#buttoncolor:hover{
+  color: #57c0a1;
+  background-color:white;
+  border: #57c0a1 solid 4px;
+}
+
+#mapdiv {
+  width: 100%;
+  margin: 15px 0 100px 0;
+}
+
+#map {
+padding-top: 35px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    background: white;
+    color: black;
+    vertical-align: middle;
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  p {
+    font-family: 'Spectral', serif;
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  #content {
+  margin: 2% 3% 0 3%;
+  }
+
+  #header {
+    background-image: url("images/bgheader.png");
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*parallax*/
+    margin-bottom: 100px;
+    }
+
+  h1 {
+    font-family: 'Timmana', sans-serif;
+    font-size: 140px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+  }
+
+  h2 {
+    font-family: 'Spectral', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding: 0 10% 0 10%;
+  }
+
+  h3 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-family: 'Chivo', sans-serif;
+    font-size: 22px;
+    color: black;
+  }
+
+#menu {
+  display:none;
+}
+
+  #menuwide {
+  display: block;
+  font-size: 25px;
+  font-family: 'Timmana', sans-serif;
+  background: black;
+  color: white!important;
+  width: 100%;
+  height: 68px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  z-index: 999;
+  }
+
+  #logoimg {
+  height: 50px;
+  }
+
+  #menuitems li {
+  padding: 15px 5px 0 5px;
+  color: white;
+  vertical-align: middle;
+  }
+
+  #menuitems li:hover {
+  background: #57c0a1;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:visited {
+    text-decoration: none;
+    font-weight: bolder;
+    color: inherit;
+  }
+  a:active {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  #bio {
+      width: 100%;
+      margin: 0 0 0 0;
+      padding: 100px 0 100px 0;
+    }
+
+    #whoami {
+      width: 40%;
+      margin: 0 0 0 -5px;
+    }
+
+    #biotext {
+      width: 60%;
+      text-align: right;
+    }
+
+    #impressya {
+      width: 100%;
+      margin: 0 0 0 0;
+      padding: 50px 0 100px 0;
+    }
+
+#impressya h3 {
+      text-align: left !important;
+      margin-left: 15px;
+}
+
+    #photos {
+    width: 30%;
+    margin: 0 0 0 0;
+    }
+        #impressyaimg {
+          width: 100%;
+        }
+        #impressyaimg2 {
+          display: none;
+        }
+
+    #impressyatext {
+      width: 70%;
+      margin: 0 0 0 0;
+      text-align: left;
+    }
+
+    #impressyatext a {
+      font-weight: bold;
+    }
+
+    #impressyatext a:hover {
+      color: #57c0a1;
+      font-weight: bolder;
+      text-decoration: none;
+    }
+
+    #where {
+      margin: 60px 0 0 0;
+      width: 100%;
+      text-align: center;
+    }
+
+#wheremap {
+  width: 50%;
+}
+    #whereframe {
+      height: 420px;
+    }
+    #wheretext {
+      width: 50%;
+      text-align: left;
+    }
+
+    #wheretext ul {
+        line-height: 140%;
+        list-style-image: url("images/pin.png");
+        font-family: 'Spectral', serif;
+        font-size: 20px;
+    }
+
+    #googleme {
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 100px 0 100px 0;
+    }
+
+    #googleme h3 {
+      text-align: right;
+    }
+
+    #socmedicons {
+      margin: 0 0 0 0;
+      width: 50%;
+    }
+
+    #socmedicons img {
+      width: 26%;
+      margin: 0 3% 5% 3%;
+    }
+                #fb:hover {
+                content: url('images/fb2.png');
+                }
+                #ig:hover {
+                content: url('images/ig2.png');
+                }
+                #twitter:hover {
+                content: url('images/twitter2.png');
+                }
+                #linkedin:hover {
+                content: url('images/linkedin2.png');
+                }
+                #github:hover {
+                content: url('images/github2.png');
+                }
+                #behance:hover {
+                content: url('images/behance2.png');
+                }
+
+    #googlemetext {
+      width: 50%;
+      text-align: right;
+    }
+    #ghide {
+      display: block;
+      text-align: right;
+    }
+    #gshow {
+      display: none;
+    }
+
+    #screen {
+      margin: 0 0 0 0;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+
+    #screen a {
+      font-weight: bold;
+    }
+
+    #screen a:hover {
+      color: #57c0a1;
+      font-weight: bolder;
+      text-decoration: none;
+    }
+
+    #vivixx {
+    width: 60%;
+    margin: 0 0 40px 0;
+    }
+
+    #igscreens {
+    padding: 80px 0 240px 0;
+    text-align: center;
+    }
+
+
+    #ineednewfriends {
+      clear: both;
+      text-align: center;
+      margin: 40px 0 0 0;
+      padding: 20px 20px 150px 20px;
+      width: 100%;
+    }
+#ineednewfriends h3 {
+  padding-bottom: 10px;
+}
+
+#formdiv {
+  width: 50%;
+}
+    #formdiv h4 {
+      width: 80%;
+      margin: 0 10% 0 10%;
+    }
+
+    #form-main{
+      width:100%;
+      padding-top:35px;
+      padding-bottom:50px;
+      z-index: 999;
+      color: black;
+    }
+
+    .feedback-input {
+      color:black;
+      font-size: 18px;
+      border-radius: 0;
+      line-height: 22px;
+      background-color: #eeeeee;
+      padding: 13px 13px 13px 54px;
+      margin-bottom: 10px;
+      width:100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 3px solid rgba(0,0,0,0);
+    }
+
+    .feedback-input:focus{
+      background: #fff;
+      box-shadow: 0;
+      border: 3px solid #57c0a1;
+      color: #57c0a1;
+      outline: none;
+      padding: 13px 13px 13px 54px;
+    }
+
+    .focused{
+      color:#30aed6;
+      border:#30aed6 solid 3px;
+    }
+
+    /* Icons ---------------------------------- */
+    #name{
+      background-image: url(images/user.png);
+      background-size: 30px 30px;
+      background-position: 11px 8px;
+      background-repeat: no-repeat;
+    }
+
+    #name:focus{
+      background-image: url(images/user.png);
+      background-size: 30px 30px;
+      background-position: 8px 5px;
+      background-position: 11px 8px;
+      background-repeat: no-repeat;
+    }
+
+    #email{
+      background-image: url(images/email.png);
+      background-size: 30px 30px;
+      background-position: 11px 8px;
+      background-repeat: no-repeat;
+    }
+
+    #email:focus{
+      background-image: url(images/email.png);
+      background-size: 30px 30px;
+      background-position: 11px 8px;
+      background-repeat: no-repeat;
+    }
+
+    #message{
+      background-image: url(images/pencil.png);
+      background-size: 30px 30px;
+      background-position: 11px 8px;
+      background-repeat: no-repeat;
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        line-height: 120%;
+        resize:vertical;
+    }
+
+    input:hover, textarea:hover,
+    input:focus, textarea:focus {
+      background-color:white;
+    }
+
+    #buttoncolor{
+      width: 100%;
+      border: #fbfbfb solid 4px;
+      cursor:pointer;
+      background-color: #57c0a1;
+      color:white;
+      font-family: 'Chivo', sans-serif;
+      font-size:20px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      padding: 10px 0 10px 0;
+    }
+
+    #buttoncolor:hover{
+      color: #57c0a1;
+      background-color:white;
+      border: #57c0a1 solid 4px;
+    }
+
+    #mapdiv {
+    width: 50%;
+      margin: 0 0 0 0;
+    }
+
+    #mapdiv h4 {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    }
+
+    #map {
+    padding-top: 35px;
+    }
+
+
+
+
+}
