@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo|Spectral|Timmana');
 
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("images/loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 body {
   background: white;
   color: black;
@@ -25,7 +40,7 @@ margin: 2% 3% 2% 3%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; /*parallax*/
+  background-size: 120%; /*parallax*/
   padding: 20% 15% 150px 15%;
   }
 
@@ -117,6 +132,10 @@ a:active {
 #whoamiimg {
   width: 95%;
   margin: 0 2.5% 0 2.5%;
+}
+
+#whoamiimg:hover {
+content: url('images/whoami2.png');
 }
 
 #biotext {
@@ -266,9 +285,29 @@ content: url('images/behance2.png');
   margin: 10px 0 10px 0;
 }
 
-#igscreens p {
+#igscreens h4 {
   padding-top: 20px;
 }
+
+#igscreens p {
+  padding-top: 25px;
+}
+
+#igscreens a {
+  font-weight: bold;
+}
+
+#igscreens a:hover {
+  color: #57c0a1;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#igscreens a:visited {
+  color: black;
+  font-weight: bolder;
+  text-decoration: line-through;
+}
+
 
 #ineednewfriends {
     width: 100%;
@@ -478,23 +517,38 @@ padding-top: 35px;
   }
 
   #menuitems li {
-  padding: 15px 5px 0 5px;
+  margin: 10px 0 0 0;
+  padding: 0 5px 0 5px;
   color: white;
-  vertical-align: middle;
+  vertical-align: middle !important;
   }
 
   #menuitems li:hover {
   background: #57c0a1;
   }
 
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #ffffff !important;
+  background-color: #57c0a1 !important;
+  font-weight: normal !important;
+}
+
+
   a {
     text-decoration: none;
+    font-weight: bold;
     color: inherit;
   }
-  a:visited {
-    text-decoration: none;
+
+  a:hover {
+    color: #57c0a1 !important;
     font-weight: bolder;
-    color: inherit;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    font-weight: bolder;
+    text-decoration: line-through;
   }
   a:active {
       text-decoration: none;
@@ -510,6 +564,10 @@ padding-top: 35px;
     #whoami {
       width: 40%;
       margin: 0 0 0 -5px;
+    }
+
+    #whoamiimg:hover {
+    content: url('images/whoami2.png');
     }
 
     #biotext {
@@ -535,6 +593,10 @@ padding-top: 35px;
         #impressyaimg {
           width: 100%;
         }
+        #impressyaimg:hover {
+          content: url('images/impressyaimg2.jpg');
+        }
+
         #impressyaimg2 {
           display: none;
         }
@@ -557,6 +619,7 @@ padding-top: 35px;
 
     #where {
       margin: 60px 0 0 0;
+      padding-top: 40px;
       width: 100%;
       text-align: center;
     }
@@ -657,7 +720,13 @@ padding-top: 35px;
     }
 
 
-    #ineednewfriends {
+    #igscreens p {
+      padding-top: 25px;
+    }
+
+
+
+  #ineednewfriends {
       clear: both;
       text-align: center;
       margin: 40px 0 0 0;
@@ -796,8 +865,5 @@ padding-top: 35px;
     #map {
     padding-top: 35px;
     }
-
-
-
 
 }

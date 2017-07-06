@@ -4,6 +4,7 @@
         <title>arncrg</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <!--Meta Sharing Tags-->
         <meta property="og:type" content="website">
         <meta property="og:title" content="arncrg">
@@ -11,16 +12,32 @@
         <meta property="og:image" content="https://arencrg.github.io/images/metashare.png">
         <meta property="og:url" content="https://arencrg.github.io/">
         <meta name="twitter:card" content="summary_large_image">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
-        <!---->
-        <link rel="icon" href="images/logo.png">
-        <link href="https://fonts.googleapis.com/css?family=Chivo|Spectral|Timmana" rel="stylesheet">
+
+        <link rel="icon" href="images/logoicon.png">
+        <script src="aren.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script>
+
+        $(function() {
+
+             $('a').click(function(){
+                $('html, body').animate({
+                    scrollTop: $( $(this).attr('href') ).offset().top
+                }, 1000);
+                return false;
+             });
+
+        });
+        </script>
+
     </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <div class="jumbotron text-center" id="header">
         <h1>Jean Clarence Cariaga</h1>
@@ -36,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#header"> <img src="images/logo.png" id="logoimg"> </a>
+                <a class="navbar-brand" href="#header"> <img src="images/logoicon.png" id="logoimg"> </a>
             </div>
 
             <div class="collapse navbar-collapse nav-collapse" data-toggle="collapse" data-target=".nav-collapse" id="minimenu">
@@ -52,15 +69,15 @@
     </nav>
 
     <nav class="navbar navbar-inverse" role="navigation" id="menuwide">
-        <a class="navbar-brand" href="#header"> <img src="images/logo.png" id="logoimg"> </a>
+        <a class="navbar-brand" href="#header"> <img src="images/logoicon.png" id="logoimg"> </a>
         <ul class="nav navbar-nav" id="menuitems">
-            <li> <a href = "#bio">ABOUT ME</a> </li>
-            <li> <a href = "#impressya">WHAT I DO</a> </li>
-            <li> <a href = "#where">WHERE I'VE BEEN</a> </li>
-            <li> <a href = "#googleme">CHECK ME OUT</a> </li>
-            <li> <a href = "#screen">CODING BOOTCAMP</a> </li>
-            <li> <a href = "#igscreens">SEE MY CODES</a> </li>
-            <li> <a href = "#ineednewfriends">CONTACT ME</a> </li>
+            <li> <a href = "#bio" id="button">ABOUT ME</a> </li>
+            <li> <a href = "#impressya" id="button">WHAT I DO</a> </li>
+            <li> <a href = "#where" id="button">WHERE I'VE BEEN</a> </li>
+            <li> <a href = "#googleme" id="button">CHECK ME OUT</a> </li>
+            <li> <a href = "#screen" id="button">CODING BOOTCAMP</a> </li>
+            <li> <a href = "#igscreens" id="button">SEE MY CODES</a> </li>
+            <li> <a href = "#ineednewfriends" id="button">CONTACT ME</a> </li>
         </ul>
     </nav>
 
@@ -116,39 +133,39 @@
           </div>
           <div class="col col-md-5" id="googlemetext">
               <h3 id="ghide">I MADE GOOGLING ME<br/>EASIER FOR YOU</h3>
-              <p>Now, I wouldn’t want my future employer/ business partner/ friend to have to hire a PI just to get some dirt on me. Here are my social media accounts and portfolios, so feel free to check me out, uh, I mean, check my stuff out.<br/><br/>(I know, I know. You’re gonna be seeing a lot of my selfies. Sorry in advance about that.)</p>
+              <p>Now, I wouldn’t want my future employer/ business partner/ friend to have to hire a PI just to get some dirt on me. Here are my social media accounts and portfolios, so feel free to check me out, uh, I mean, check my stuff out.<br/><br/>(You’re gonna be seeing a lot of my selfies. You're welcome.)</p>
           </div>
     </div>
 
     <div class="row" id="screen">
         <div class="col-12">
-            <h3>At present, I'm learning how to code at <a href="http://vivixxbootcamp.com/">Vivixx Coding Bootcamp</a></h3>
+            <h3>At present, I'm learning how to code at <a href="http://vivixxbootcamp.com/" target="_blank">Vivixx Coding Bootcamp</a></h3>
             <center> <img src = "images\vivixx.jpg" id="vivixx"> </center>
         </div>
     </div>
 
     <div id="igscreens">
-        <h4>Here are one-minute summaries for each week of Term 1 in the bootcamp:</h4>
+        <h4>Here are one-minute summaries for each week of Term 1 in the bootcamp.<br/>Click on the weeks to see the codes on Github!</h4>
             <div class="col-sm-6 col-lg-3">
-                <p>Week 1!</p>
+                <p><a href ="https://github.com/arencrg/vivixx/tree/master/week1" target="_blank">Week 1!</a></p>
                 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BWHaC4Ol9of/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Clang Cariaga (@clngcrg)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-04T07:09:11+00:00">Jul 4, 2017 at 12:09am PDT</time></p></div></blockquote>
                 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
             </div>
 
             <div class="col-sm-6 col-lg-3">
-                <p>Week 2!</p>
+                <p><a href ="https://github.com/arencrg/vivixx/tree/master/week2" target="_blank">Week 2!</a></p>
                 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BWHaTIAFkOT/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Clang Cariaga (@clngcrg)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-04T07:11:24+00:00">Jul 4, 2017 at 12:11am PDT</time></p></div></blockquote>
                 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
             </div>
 
             <div class="col-sm-6 col-lg-3">
-                <p>Week 3!</p>
+                <p><a href ="https://github.com/arencrg/vivixx/tree/master/week3" target="_blank">Week 3!</a></p>
                 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BWHaaTnlD1e/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Clang Cariaga (@clngcrg)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-04T07:12:23+00:00">Jul 4, 2017 at 12:12am PDT</time></p></div></blockquote>
                 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
             </div>
 
             <div class="col-sm-6 col-lg-3">
-                <p>Week 4 and 5!</p>
+                <p><a href ="https://github.com/arencrg/vivixx/tree/master/week5%20-%20Personal%20Website" target="_blank">Week 4 and 5!</a></p>
                 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BWHamrol9YO/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Clang Cariaga (@clngcrg)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-04T07:14:04+00:00">Jul 4, 2017 at 12:14am PDT</time></p></div></blockquote>
                 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
             </div>
@@ -188,5 +205,8 @@
     </div>
 
 </div>
+
+      <div id="loading"></div>
+
 </body>
 </html>
