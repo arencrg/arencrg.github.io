@@ -1,18 +1,12 @@
-function onReady(callback) {
-    var intervalID = window.setInterval(checkReady, 1000);
-    function checkReady() {
-        if (document.getElementsByTagName('body')[0] !== undefined) {
-            window.clearInterval(intervalID);
-            callback.call(this);
-        }
-    }
-}
+$(function() {
+     $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 1000);
+        return false;
+     });
+});
 
-function show(id, value) {
-    document.getElementById(id).style.display = value ? 'block' : 'none';
-}
-
-onReady(function () {
-    show('header', true);
-    show('loading', false);
+$(window).on('load', function() {
+  $(".se-pre-con").fadeOut("slow");;
 });

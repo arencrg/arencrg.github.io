@@ -17,27 +17,18 @@
         <link rel="stylesheet" href="style.css">
 
         <link rel="icon" href="images/logoicon.png">
-        <script src="aren.js"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
-        <script>
-
-        $(function() {
-
-             $('a').click(function(){
-                $('html, body').animate({
-                    scrollTop: $( $(this).attr('href') ).offset().top
-                }, 1000);
-                return false;
-             });
-
-        });
-        </script>
+        <script src="aren.js"></script>
 
     </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="se-pre-con"></div>
 
     <div class="jumbotron text-center" id="header">
         <h1>Jean Clarence Cariaga</h1>
@@ -103,7 +94,6 @@
             <img src="images\impressyaimg2.jpg" id="impressyaimg2">
         </div>
     </div>
-
 
     <div class="row" id="where">
       <h3>Check out the places I've studied/ interned/ worked at!</h3>
@@ -205,8 +195,6 @@
     </div>
 
 </div>
-
-      <div id="loading"></div>
 
 </body>
 </html>
