@@ -85,6 +85,13 @@ color: white!important;
 width: 100%;
 }
 
+
+#menu li a:hover, #menu li.active a {
+  color: #ffffff !important;
+  background-color: #57c0a1 !important;
+  font-weight: normal !important;
+}
+
 #logoimg {
 height: 55px;
 vertical-align: middle;
@@ -714,7 +721,7 @@ padding-top: 35px;
     }
 
     #igscreens {
-    padding: 80px 0 240px 0;
+    padding: 40px 0 300px 0;
     text-align: center;
     }
 
