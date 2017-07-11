@@ -21,14 +21,14 @@ I started coming up with the design based on a personal business card I designed
 
 3. Full designs on Figma
 
-![Figma Wireframes](screenshot.png "Figma Wireframes")
+![Figma Wireframes](screenshot.PNG "Figma Wireframes")
 
 You can view the actual wireframes here: https://www.figma.com/file/Hg40uTk4MLJ3qv5qWEAs2zki/Personal-Website-Wireframe
 
 4. Chose front-end Framework for UI elements
 I was able to layout the contents with Bootstrap.
 
-![Bootstrap Logo](bootstrap-solid.svg "Bootstrap Logo")
+![Bootstrap Logo](bootstrap.jpg "Bootstrap Logo")
 
 ### Existing Bugs
 
