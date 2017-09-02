@@ -3,10 +3,11 @@
 body {
   background: white;
   color: black;
-  vertical-align: middle;
   font-family: 'Spectral', serif;
   font-size: 14px;;
   text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .no-js #loader { display: none;  }
@@ -23,12 +24,12 @@ body {
 
 p {
   font-family: 'Spectral', serif;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 140%;
 }
 
 #content {
-margin: 2% 3% 2% 3%;
+margin: 2% 3% 2% 3% !important;
 }
 
 #header {
@@ -60,7 +61,7 @@ h2 {
 
 h3 {
   font-family: 'Chivo', sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   color: black;
   font-weight: bold;
 }
@@ -71,27 +72,24 @@ h4 {
   color: black;
 }
 
-#menuwide {
-  display: none;
-}
-
 #menu {
-font-size: 30px;
+font-size: 28px;
 font-family: 'Timmana', sans-serif;
 background: black;
 color: white!important;
 width: 100%;
+
 }
 
-
-#menu li a:hover, #menu li.active a {
+#menu li a:hover, #menu li.active {
   color: #ffffff !important;
-  background-color: #57c0a1 !important;
+  background-color: #00a987 !important;
   font-weight: normal !important;
 }
 
 #logoimg {
-height: 55px;
+margin-top: -8px;
+height: 50px;
 vertical-align: middle;
 }
 
@@ -99,15 +97,6 @@ vertical-align: middle;
   height: 65px;
 }
 
-#menuitems li {
-padding: 15px 20px 0 15px;
-color: white;
-vertical-align: middle;
-}
-
-#menuitems li:hover {
-background: #57c0a1;
-}
 
 a {
   text-decoration: none;
@@ -130,11 +119,10 @@ a:active {
 }
 
 #whoami {
-  width: 100%;
 }
 
 #whoamiimg {
-  width: 95%;
+  width: 80%;
   margin: 0 2.5% 0 2.5%;
 }
 
@@ -143,95 +131,11 @@ content: url('images/whoami2.png');
 }
 
 #biotext {
-  width: 100%;
   text-align: center;
 }
 
-#impressya {
-      width: 100%;
-      margin: 60px 0 0 0;
-      }
-
-    #impressya h3 {
-          text-align: center;
-          margin: 0 5% 0 5%;
-          padding-bottom: 20px;
-          }
-
-#photos {
-      width: 100%;
-      margin: 0 1% 0 1%;
-      }
-
-#impressyaimg {
-      width: 45%;
-      margin: 2% 2% 0 2%;
-      }
-#impressyaimg2 {
-      width: 45%;
-      margin: 2% 2% 0 2%;
-      }
-
-#impressyatext {
-      width: 100%;
-      text-align: center;
-      vertical-align: middle;
-      }
-
-      #impressyatext a {
-            font-weight: bolder;
-            }
-
-      #impressyatext a:hover {
-            color: #57c0a1;
-            font-weight: bolder;
-            text-decoration: line-through;
-            }
-
-#where {
-  width: 100%;
-  text-align: center;
-  margin: 30px 0 0 0;
-}
-
-#where h3 {
-  font-size: 24px;
-}
-
-#wheremap {
-  margin: 15px 0 0 0;
-  width: 100%;
-}
-#whereframe {
-  height: 400px;
-}
-#wheretext {
-  width: 100%;
-  text-align: left;
-}
-
-#wheretext ul {
-    padding-top: 40px;
-    line-height: 140%;
-    list-style-image: url("images/pin.png");
-    list-style-position: outside;
-    font-family: 'Spectral', serif;
-    font-size: 20px;
-}
-
-#googleme {
-  width: 100%;
-  margin: 60px 0 0 0;
-  text-align: center;
-}
-
-#socmedicons {
-  width: 100%;
-  padding: 20px 4% 40px 4%;
-}
-
-#socmedicons img {
-  width: 30%;
+#biotext img {
+  width: 5%;
   margin: 5px 1% 5px 1%;
 }
 
@@ -244,79 +148,78 @@ content: url('images/ig2.png');
 #twitter:hover {
 content: url('images/twitter2.png');
 }
-#linkedin:hover {
-content: url('images/linkedin2.png');
-}
-#github:hover {
-content: url('images/github2.png');
-}
-#behance:hover {
-content: url('images/behance2.png');
-}
 
-#ghide {
-  display: none;
-}
 
-#screen {
+#impressya {
+      width: 100%;
+      margin: 20px 0 0 0;
+      }
+
+    #impressya h3 {
+          text-align: center;
+          margin: 0 5% 0 5%;
+          padding-bottom: 20px;
+          }
+
+#impressyatext {
+      text-align: center;
+      vertical-align: middle;
+      }
+
+      #impressyatext a {
+            font-weight: bolder;
+            }
+
+      #impressyatext a:hover {
+            color: #00a987;
+            font-weight: bolder;
+            text-decoration: line-through;
+            }
+
+#bootcamp {
   width: 100%;
   margin: 60px 0 0 0;
   text-align: center;
 }
 
-    #screen a {
+    #bootcamp a {
           font-weight: bolder;
           }
 
-    #screen a:hover {
-          color: #57c0a1;
+    #bootcamp a:hover {
+          color: #00a987;
           font-weight: bolder;
           text-decoration: none;
           }
 
-#vivixx {
-  width: 100%;
-  padding-top: 15px;
-}
+      #bootcamp a:visited {
+        color: black;
+        font-weight: bolder;
+        text-decoration: line-through;
+      }
 
-#igscreens {
-  width: 100%;
-  margin: 30px 0 0 0;
-  text-align: center;
-}
-
-#igscreens blockquote {
+#term1 blockquote {
   margin: 10px 0 10px 0;
 }
 
-#igscreens h4 {
+#term1 h4 {
   padding-top: 20px;
 }
 
-#igscreens p {
+#term1 p {
   padding-top: 25px;
 }
 
-#igscreens a {
-  font-weight: bold;
-}
 
-#igscreens a:hover {
-  color: #57c0a1;
-  font-weight: bolder;
-  text-decoration: none;
-}
-#igscreens a:visited {
-  color: black;
-  font-weight: bolder;
-  text-decoration: line-through;
-}
 
 
 #ineednewfriends {
     width: 100%;
     margin: 60px 0 0 0;
     text-align: center;
+}
+
+#formdiv {
 }
 
 #form-main{
@@ -346,8 +249,8 @@ content: url('images/behance2.png');
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #57c0a1;
-  color: #57c0a1;
+  border: 3px solid #00a987;
+  color: #00a987;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
@@ -408,10 +311,10 @@ input:focus, textarea:focus {
 
 #buttoncolor{
   width: 100%;
-  border: #fbfbfb solid 4px;
+  color: #00a987;
+  background-color:white;
+  border: #00a987 solid 4px;
   cursor:pointer;
-  background-color: #57c0a1;
-  color:white;
   font-family: 'Chivo', sans-serif;
   font-size:16px;
   -webkit-transition: all 0.3s;
@@ -421,13 +324,12 @@ input:focus, textarea:focus {
 }
 
 #buttoncolor:hover{
-  color: #57c0a1;
-  background-color:white;
-  border: #57c0a1 solid 4px;
+  border: #fbfbfb solid 4px;
+  background-color: #00a987;
+  color:white;
 }
 
 #mapdiv {
-  width: 100%;
   margin: 15px 0 100px 0;
 }
 
@@ -435,439 +337,71 @@ input:focus, textarea:focus {
 padding-top: 35px;
 }
 
-
-
-@media only screen and (min-width: 768px) {
-
-  body {
-    background: white;
-    color: black;
-    vertical-align: middle;
-    font-family: 'Spectral', serif;
-    font-size: 14px;
-    text-decoration: none;
-  }
-
-  p {
-    font-family: 'Spectral', serif;
-    font-size: 22px;
-    line-height: 140%;
-  }
-
-  #content {
-  margin: 2% 3% 0 3%;
-  }
-
-  #header {
-    background-image: url("images/bgheader.png");
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; /*parallax*/
-    margin-bottom: 100px;
-    }
-
-  h1 {
-    font-family: 'Timmana', sans-serif;
-    font-size: 140px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px 0 0 0;
-  }
-
-  h2 {
-    font-family: 'Spectral', serif;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 10px;
-    padding: 0 10% 0 10%;
-  }
-
-  h3 {
-    font-family: 'Chivo', sans-serif;
-    font-size: 36px;
-    color: black;
-    font-weight: bold;
-  }
-
-  h4 {
-    font-family: 'Chivo', sans-serif;
-    font-size: 22px;
-    color: black;
-  }
-
-#menu {
-  display:none;
+.portfolio-details {
+  margin: 20px 0 20px 0;
 }
 
-  #menuwide {
+.github-link {
   display: block;
-  font-size: 25px;
-  font-family: 'Timmana', sans-serif;
-  background: black;
-  color: white!important;
-  width: 100%;
-  height: 68px;
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 0;
-  z-index: 999;
-  }
+  position: relative;
+  max-width: 280px;
+  margin: 0 auto;
+}
 
-  #logoimg {
-  height: 50px;
-  }
+.github-link .note {
+    background: #00a987;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
 
-  #menuitems li {
-  margin: 10px 0 0 0;
-  padding: 0 5px 0 5px;
-  color: white;
-  vertical-align: middle !important;
-  }
+.github-link .note:hover {
+    opacity: 1;
+}
 
-  #menuitems li:hover {
-  background: #57c0a1;
-  }
+.github-link .note .note-content {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -12px;
+    top: 50%;
+    color: white;
+}
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #ffffff !important;
-  background-color: #57c0a1 !important;
-  font-weight: normal !important;
+.github-link .note .note-content p {
+  font-size: 22px;
+  margin-top: -8px;
+  padding: 0 20px 0 20px;
 }
 
 
-  a {
-    text-decoration: none;
-    font-weight: bold;
-    color: inherit;
+@media only screen and (max-width: 1023px) {
+
+  #biotext img {
+    width: 100px;
   }
 
-  a:hover {
-    color: #57c0a1 !important;
-    font-weight: bolder;
-    text-decoration: none;
-  }
-  a:visited {
-    color: black;
-    font-weight: bolder;
-    text-decoration: line-through;
-  }
-  a:active {
-      text-decoration: none;
-      color: inherit;
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  #biotext img {
+    width: 100px;
   }
 
   #bio {
-      width: 100%;
-      margin: 0 0 0 0;
-      padding: 100px 0 100px 0;
-    }
+    text-align: right !important;
+  }
 
-    #whoami {
-      width: 40%;
-      margin: 0 0 0 -5px;
-    }
-
-    #whoamiimg:hover {
-    content: url('images/whoami2.png');
-    }
-
-    #biotext {
-      width: 60%;
-      text-align: right;
-    }
-
-    #impressya {
-      width: 100%;
-      margin: 0 0 0 0;
-      padding: 50px 0 100px 0;
-    }
-
-#impressya h3 {
-      text-align: left !important;
-      margin-left: 15px;
-}
-
-    #photos {
-    width: 30%;
-    margin: 0 0 0 0;
-    }
-        #impressyaimg {
-          width: 100%;
-        }
-        #impressyaimg:hover {
-          content: url('images/impressyaimg2.jpg');
-        }
-
-        #impressyaimg2 {
-          display: none;
-        }
-
-    #impressyatext {
-      width: 70%;
-      margin: 0 0 0 0;
-      text-align: left;
-    }
-
-    #impressyatext a {
-      font-weight: bold;
-    }
-
-    #impressyatext a:hover {
-      color: #57c0a1;
-      font-weight: bolder;
-      text-decoration: none;
-    }
-
-    #where {
-      margin: 60px 0 0 0;
-      padding-top: 40px;
-      width: 100%;
-      text-align: center;
-    }
-
-#wheremap {
-  width: 50%;
-}
-    #whereframe {
-      height: 420px;
-    }
-    #wheretext {
-      width: 50%;
-      text-align: left;
-    }
-
-    #wheretext ul {
-        line-height: 140%;
-        list-style-image: url("images/pin.png");
-        font-family: 'Spectral', serif;
-        font-size: 20px;
-    }
-
-    #googleme {
-        width: 100%;
-        margin: 0 0 0 0;
-        padding: 100px 0 100px 0;
-    }
-
-    #googleme h3 {
-      text-align: right;
-    }
-
-    #socmedicons {
-      margin: 0 0 0 0;
-      width: 50%;
-    }
-
-    #socmedicons img {
-      width: 26%;
-      margin: 0 3% 5% 3%;
-    }
-                #fb:hover {
-                content: url('images/fb2.png');
-                }
-                #ig:hover {
-                content: url('images/ig2.png');
-                }
-                #twitter:hover {
-                content: url('images/twitter2.png');
-                }
-                #linkedin:hover {
-                content: url('images/linkedin2.png');
-                }
-                #github:hover {
-                content: url('images/github2.png');
-                }
-                #behance:hover {
-                content: url('images/behance2.png');
-                }
-
-    #googlemetext {
-      width: 50%;
-      text-align: right;
-    }
-    #ghide {
-      display: block;
-      text-align: right;
-    }
-    #gshow {
-      display: none;
-    }
-
-    #screen {
-      margin: 0 0 0 0;
-      margin-top: 60px;
-      text-align: center;
-    }
-
-
-    #screen a {
-      font-weight: bold;
-    }
-
-    #screen a:hover {
-      color: #57c0a1;
-      font-weight: bolder;
-      text-decoration: none;
-    }
-
-    #vivixx {
-    width: 60%;
-    margin: 0 0 40px 0;
-    }
-
-    #igscreens {
-    padding: 40px 0 300px 0;
-    text-align: center;
-    }
-
-
-    #igscreens p {
-      padding-top: 25px;
-    }
-
-
-
-  #ineednewfriends {
-      clear: both;
-      text-align: center;
-      margin: 40px 0 0 0;
-      padding: 20px 20px 150px 20px;
-      width: 100%;
-    }
-#ineednewfriends h3 {
-  padding-bottom: 10px;
-}
-
-#formdiv {
-  width: 50%;
-}
-    #formdiv h4 {
-      width: 80%;
-      margin: 0 10% 0 10%;
-    }
-
-    #form-main{
-      width:100%;
-      padding-top:35px;
-      padding-bottom:50px;
-      z-index: 999;
-      color: black;
-    }
-
-    .feedback-input {
-      color:black;
-      font-size: 18px;
-      border-radius: 0;
-      line-height: 22px;
-      background-color: #eeeeee;
-      padding: 13px 13px 13px 54px;
-      margin-bottom: 10px;
-      width:100%;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-      box-sizing: border-box;
-      border: 3px solid rgba(0,0,0,0);
-    }
-
-    .feedback-input:focus{
-      background: #fff;
-      box-shadow: 0;
-      border: 3px solid #57c0a1;
-      color: #57c0a1;
-      outline: none;
-      padding: 13px 13px 13px 54px;
-    }
-
-    .focused{
-      color:#30aed6;
-      border:#30aed6 solid 3px;
-    }
-
-    /* Icons ---------------------------------- */
-    #name{
-      background-image: url(images/user.png);
-      background-size: 30px 30px;
-      background-position: 11px 8px;
-      background-repeat: no-repeat;
-    }
-
-    #name:focus{
-      background-image: url(images/user.png);
-      background-size: 30px 30px;
-      background-position: 8px 5px;
-      background-position: 11px 8px;
-      background-repeat: no-repeat;
-    }
-
-    #email{
-      background-image: url(images/email.png);
-      background-size: 30px 30px;
-      background-position: 11px 8px;
-      background-repeat: no-repeat;
-    }
-
-    #email:focus{
-      background-image: url(images/email.png);
-      background-size: 30px 30px;
-      background-position: 11px 8px;
-      background-repeat: no-repeat;
-    }
-
-    #message{
-      background-image: url(images/pencil.png);
-      background-size: 30px 30px;
-      background-position: 11px 8px;
-      background-repeat: no-repeat;
-    }
-
-    textarea {
-        width: 100%;
-        height: 150px;
-        line-height: 120%;
-        resize:vertical;
-    }
-
-    input:hover, textarea:hover,
-    input:focus, textarea:focus {
-      background-color:white;
-    }
-
-    #buttoncolor{
-      width: 100%;
-      border: #fbfbfb solid 4px;
-      cursor:pointer;
-      background-color: #57c0a1;
-      color:white;
-      font-family: 'Chivo', sans-serif;
-      font-size:20px;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
-      padding: 10px 0 10px 0;
-    }
-
-    #buttoncolor:hover{
-      color: #57c0a1;
-      background-color:white;
-      border: #57c0a1 solid 4px;
-    }
-
-    #mapdiv {
-    width: 50%;
-      margin: 0 0 0 0;
-    }
-
-    #mapdiv h4 {
-    width: 80%;
-    margin: 0 10% 0 10%;
-    }
-
-    #map {
-    padding-top: 35px;
-    }
-
+  #impressya {
+    text-align: left!important;
+  }
 }

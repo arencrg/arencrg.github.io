@@ -12,8 +12,7 @@ This website is the final project for the First Term. As I go through the course
 ### Design Process
 
 1. Mood Board
-
-Choosing the colors, fonts
+Choosing the colors, fonts (yep, I still like teal, or whatever this color is.)
 
 2. Building the wireframes
 
@@ -28,8 +27,6 @@ You can view the actual wireframes here: https://www.figma.com/file/Hg40uTk4MLJ3
 4. Chose front-end Framework for UI elements
 I was able to layout the contents with Bootstrap.
 
-![Bootstrap Logo](bootstrap.jpg "Bootstrap Logo")
-
 ### Existing Bugs
 
 - Didn't have documentation (FIXED 11/7/17)
@@ -38,4 +35,8 @@ I was able to layout the contents with Bootstrap.
 ### Future Plans
 
 - I plan to make the Contact Form fully functional when I learn PHP
-- I want to add Leaflet.js to the "Where I've Been" section (once I figure it out)
+- ~~I want to add Leaflet.js to the "Where I've Been" section (once I figure it out)~~
+
+### UPDATES
+
+As of 02 Sept 2017, I've finished updating my portfolio, the Leaflet.js map (whoo, JS!), and fixed the responsiveness issues!
